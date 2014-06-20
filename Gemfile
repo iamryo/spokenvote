@@ -8,7 +8,7 @@ gem 'rails', '3.2.13'
 # gem 'heroku'
 gem 'devise'
 gem 'pg'
-gem 'thin'
+# gem 'thin'
 gem 'dalli'
 gem 'rack-cache'
 
@@ -51,7 +51,7 @@ group :development do
   gem 'taps', :require => false
   gem 'hirb'
   gem 'annotate'
-  gem 'debugger'
+  # gem 'debugger'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
